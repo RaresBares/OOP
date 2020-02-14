@@ -3,3 +3,8 @@
 //
 
 #include "Enemy.h"
+
+
+  std::string Enemy::getInfo() {
+      return "he has" + life + " HP and makes " +dmg + " Damage" ;
+}
